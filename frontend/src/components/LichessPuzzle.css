@@ -1,0 +1,22 @@
+.lichess-puzzle-container {
+    width: min(80vw, 80vh);      /* Ekran boyutuna göre ayarlanır */
+    height: min(80vw, 80vh);     /* Kare oran korunur */
+    max-width: 600px;            /* Maksimum genişlik */
+    max-height: 600px;           /* Maksimum yükseklik */
+    margin: 20px auto;
+    aspect-ratio: 1;             /* Kare oranı zorla */
+}
+
+.puzzle-status {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.temp-error {
+    color: red;
+}
+
+.solution-button {
+    margin-top: 10px;
+    margin-right: 10px;
+}
