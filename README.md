@@ -161,18 +161,18 @@ npm run preview
 
 ```
 ChessNews/
-├── backend/                    # Backend application
+├── backend/                  # Backend application
 │   ├── src/
-│   │   ├── controllers/        # API controllers
-│   │   ├── elo/               # ELO data processing modules
-│   │   ├── routes/            # API route definitions
-│   │   ├── services/          # Business logic services
-│   │   └── index.ts           # Main server file
+│   │   ├── controllers/      # API controllers
+│   │   ├── elo/              # ELO data processing modules
+│   │   ├── routes/           # API route definitions
+│   │   ├── services/         # Business logic services
+│   │   └── index.ts          # Main server file
 │   ├── package.json
 │   └── tsconfig.json
-├── frontend/                   # Frontend application
+├── frontend/                 # Frontend application
 │   ├── src/
-│   │   ├── components/        # React components
+│   │   ├── components/       # React components
 │   │   ├── pages/            # Page components
 │   │   ├── firebase/         # Firebase configuration
 │   │   ├── config/           # Configuration files
@@ -315,14 +315,6 @@ npm run dev
 ## Target Audience and Development Potential
 
 This project is designed to serve chess players in the Tekirdağ and Thrace regions. The platform can be commercialized for use by chess clubs and associations. Collaboration with newly established chess organizations can expand the project's scope and impact.
-
-## Future Development
-
-- Integration with local chess authorities
-- Copyright research for content sources
-- Technology stack decisions and optimization
-- UI/UX design improvements
-- Community feedback integration
 
 ## Contributing
 
